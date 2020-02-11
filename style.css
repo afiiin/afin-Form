@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background: gray;
+}
+
+.box {
+    background: white;
+    width: 450px;
+    margin: 50px auto 10px;
+    box-shadow: 5px rgba(128, 128, 128, 0.562);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.top {
+    height: 60px;
+    background: #01afee;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #e6f0ff;
+}
+
+.bottom {
+    height: 430px;
+    margin: 30px 30px 30px;
+    text-align: center;
+}
+
+.kirim .submit {
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    background: #01afee;
+    transition: 1s;
+}
+
+.submit:hover {
+    background: #e9cd00;
+}
+
+.name,
+.email {
+    width: 87%;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    margin: 4px 0;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+.combo {
+    padding: 5px;
+}
+
+option {
+    width: 200px;
+    font-size: 14px;
+    height: 20px;
+
+}
