@@ -16,19 +16,19 @@
         </div>
         <div class="bottom">
             <form action="kirim.php" method="POST">
-            <label for="Name">Nama</label>
+            <label for="Name" class="bold">Nama</label>
             <input type="textbox" name="Name" class="name" required><br>
-            <label for="Email">Email</label>
+            <label for="Email" class="bold">Email</label>
             <input type="email" name="Email" class="email" required><br>
             <div class="Gender">
-                <p>Gender</p>
+                <h4>Gender</h4>
                 <input type="radio" name="Gender" class="radio" value="Male">
                 <label>Male</label>
                 <input type="radio" name="Gender" class="radio" value="Female">
                 <label>Female<label>
             </div>
             <div class="kota">
-                <p>kota</p>
+                <h4>Kota</h4>
                 <select name="Kota" class="combo">
                     <option value="Solo">Solo</option>
                     <option value="Karanganyar">Karanganyar</option>
@@ -38,7 +38,7 @@
                 </select>
             </div>
             <div class="status">
-            <p>status</p>
+            <h4>Status</h4>
                 <input type="checkbox" name="Status" value="Pelajar">
                 <label>Pelajar</label>
                 <input type="checkbox" name="Status" value="Kerja">
